@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  background-color: #fe00a1;
+}
+
+h1 {
+  font-family:sans;
+  color:cornflowerblue;
+  align-self: center;
+  font-size: 2em;
+}
+p {
+  font-family:serif;
+  color:rgba(59, 106, 216, 0.847);
+  align-self: center;
+  font-size: 2em;
+}
+button {
+  font-family:monospace;
+  color:rgb(59, 216, 80);
+  align-self:first baseline;
+  font-size: 2em;
+  box-shadow: 0px 0px 10px purple;
+}
+
+  button:hover {
+    background-color: hotpink;
+}
+
+.cat-3 {
+  font-family: "Franklin Gothic Medium";
+  color: rgb(208, 0, 255);
+  align-self: center;
+  font-size: 2em;
+
+
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px black;
+  align-self: center;
+}
